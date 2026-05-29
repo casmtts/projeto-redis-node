@@ -1,0 +1,35 @@
+{
+  "name": "projeto-redis-node",
+  "version": "1.0.0",
+  "description": "Projeto demonstrativo de Node.js com Redis para apresentação a recrutadores.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "cache",
+    "express",
+    "docker",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "redis": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^24.0.10",
+    "@types/supertest": "^6.0.3",
+    "supertest": "^7.1.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
