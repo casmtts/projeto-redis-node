@@ -1,6 +1,6 @@
 # Projeto Redis + Node.js + TypeScript
 
-Projeto simples e objetivo para apresentação a recrutadores, demonstrando como usar **Redis com Node.js e TypeScript** em um cenário prático de:
+Projeto simples e objetivo para apresentação, demonstrando como usar **Redis com Node.js e TypeScript** em um cenário prático de:
 
 - cache de resposta
 - contador de visitas
